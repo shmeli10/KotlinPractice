@@ -1,27 +1,25 @@
-package syntax.operators.when_operator
-
-import syntax.method.*
-import data.type.enums.SexEnum
-import data.type.enums.SexEnum.Male as M
-import data.type.enums.SexEnum.Female as F
-import data.type.enums.SexEnum.NonBinary as U
+package syntax.control_flow.`when`.example2
 
 import data.type.enums.MaritalStatusEnum
+import data.type.enums.SexEnum.Male as M
+import data.type.enums.SexEnum.Female as F
+import data.type.enums.SexEnum.NonBinary as NB
+
 import data.type.enums.MaritalStatusEnum.Married
 import data.type.enums.MaritalStatusEnum.NotMarried
 import data.type.enums.MaritalStatusEnum.Unknown
+import data.type.enums.SexEnum
 
 
-import java.lang.IllegalArgumentException
+val numArr = arrayOf(1, 2, 3)
 
 fun main(args: Array<String>) {
-    val firstName = getFirstName(args) ?: "John"
-    val lastName = getLastName(args) ?: "Doe"
-    val maritalStatus = getMaritalStatus(args) ?: Unknown
-    val sex = guessSex(args) ?: U
+    println("You can start your letter with: \n\t ${honorify(F, Married)} Smith")
 
-    println("Hello, ${honorify(sex as SexEnum, maritalStatus as MaritalStatusEnum)} " +
-            "${shorten(firstName) } $lastName")
+    println("\nChecking value " +
+            "\n\tresult1: ${checkValue(1, 5)}" +
+            "\n\tresult2: ${checkValue(10)}"
+    )
 }
 
 fun honorify(sex: SexEnum, maritalStatus: MaritalStatusEnum) =
@@ -40,7 +38,7 @@ fun honorify(sex: SexEnum, maritalStatus: MaritalStatusEnum) =
         }*/
 
         // #2
-        // simplified construction
+        // simpler construction
         /*when (sex to maritalStatus) {
             Sex.Male to MaritalStatus.Married,
             Sex.Male to MaritalStatus.NotMarried,
@@ -55,19 +53,35 @@ fun honorify(sex: SexEnum, maritalStatus: MaritalStatusEnum) =
         }*/
 
         // #3
-        // simplified construction
+        // simpler construction
+        /*when (sex to maritalStatus) {
+            Male to Married,
+            Male to NotMarried,
+            Male to Unknown -> "Mr."
+            Female to Married -> "Mrs."
+            Female to NotMarried -> "Miss"
+            Female to Unknown -> "Ms."
+            NonBinary to Married -> "Mrs."
+            NonBinary to NotMarried -> "Miss"
+            NonBinary to Unknown -> "Mx."
+            else -> throw IllegalArgumentException("Unknown combination of ($sex, $maritalStatus)")
+        }*/
+
+        // #4
+        // simpler construction
         when (sex to maritalStatus) {
-            M to Married, M to NotMarried, M to Unknown -> "Mr."
+            M to Married,
+            M to NotMarried,
+            M to Unknown -> "Mr."
             F to Married -> "Mrs."
             F to NotMarried -> "Miss"
             F to Unknown -> "Ms."
-            U to Married -> "Mrs."
-            U to NotMarried -> "Miss"
-            U to Unknown -> "Mx."
+            NB to Married -> "Mrs."
+            NB to NotMarried -> "Miss"
+            NB to Unknown -> "Mx."
             else -> throw IllegalArgumentException("Unknown combination of ($sex, $maritalStatus)")
         }
 
-val numArr = arrayOf(1, 2, 3, 4, 5)
 
 fun checkValue(a: Int, b: Int): String =
         when (a) {
@@ -90,5 +104,3 @@ fun checkValue(a: Int): Boolean =
             a !in numArr -> false   // contains
             else -> false
         }
-
-

@@ -1,6 +1,6 @@
 package syntax.properties
 
-import data.type.enums.SexEnum
+import data.type.enums.example1.SexEnum
 
 fun main(args: Array<String>) {
     val human1 = Human(12, SexEnum.Male)

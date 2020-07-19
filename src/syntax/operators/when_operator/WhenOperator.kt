@@ -1,15 +1,15 @@
 package syntax.operators.when_operator
 
 import syntax.method.*
-import data.type.enums.SexEnum
-import data.type.enums.SexEnum.Male as M
-import data.type.enums.SexEnum.Female as F
-import data.type.enums.SexEnum.NonBinary as U
+import data.type.enums.example1.SexEnum
+import data.type.enums.example1.SexEnum.Male as M
+import data.type.enums.example1.SexEnum.Female as F
+import data.type.enums.example1.SexEnum.NonBinary as U
 
-import data.type.enums.MaritalStatusEnum
-import data.type.enums.MaritalStatusEnum.Married
-import data.type.enums.MaritalStatusEnum.NotMarried
-import data.type.enums.MaritalStatusEnum.Unknown
+import data.type.enums.example1.MaritalStatusEnum
+import data.type.enums.example1.MaritalStatusEnum.Married
+import data.type.enums.example1.MaritalStatusEnum.NotMarried
+import data.type.enums.example1.MaritalStatusEnum.Unknown
 
 
 import java.lang.IllegalArgumentException

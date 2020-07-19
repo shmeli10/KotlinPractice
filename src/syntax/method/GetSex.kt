@@ -1,6 +1,6 @@
 package syntax.method
 
-import data.type.enums.SexEnum
+import data.type.enums.example1.SexEnum
 
 fun guessSex(args: Array<String>): SexEnum? =
         if (args.size > 3) {

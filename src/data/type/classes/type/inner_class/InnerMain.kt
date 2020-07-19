@@ -1,4 +1,4 @@
-package data.type.classes.type.nested_class.inner_class
+package data.type.classes.type.inner_class
 
 fun main(args: Array<String>) {
     val demo = Outer().Nested().foo()

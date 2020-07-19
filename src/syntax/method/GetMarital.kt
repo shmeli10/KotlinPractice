@@ -1,6 +1,6 @@
 package syntax.method
 
-import data.type.enums.MaritalStatusEnum
+import data.type.enums.example1.MaritalStatusEnum
 
 fun getMaritalStatus(args: Array<String>): MaritalStatusEnum? =
         if (args.size > 2) {

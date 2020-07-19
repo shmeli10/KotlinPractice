@@ -1,4 +1,4 @@
-package data.type.classes.type.regular_class.example2
+package data.type.classes.operation.extension.example2
 
 interface StudentFactory {
     fun create(name: String): Student

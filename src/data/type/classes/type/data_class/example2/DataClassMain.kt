@@ -1,4 +1,4 @@
-package data.type.classes.type.data_class
+package data.type.classes.type.data_class.example2
 
 fun main(args: Array<String>) {
     val book = Book("Kotlin", "TutorialPoint.com", 5)

@@ -13,3 +13,6 @@ data class InfoMsg(val denizenId: String) : Jsonable
 data class MyDataClass(val name: String) : Jsonable {
     override fun toString() = super.toString()
 }
+
+// Impossible
+// data object EmptyMsg: Jsonable

@@ -1,4 +1,4 @@
-package data.type.classes.type.enum_class.example2
+package syntax.operators.operator_function
 
 enum class HttpCode(val code: Int)
 /* : Comparable<HttpCode> */ {
@@ -12,7 +12,6 @@ enum class HttpCode(val code: Int)
 
     open fun isOfficial() = true
 
+    // Operator function
     operator fun rangeTo(other: HttpCode) = HttpCode.values().slice(ordinal..other.ordinal)
-
-    infix fun until(other: HttpCode) = HttpCode.values().slice(ordinal..other.ordinal - 1)
 }

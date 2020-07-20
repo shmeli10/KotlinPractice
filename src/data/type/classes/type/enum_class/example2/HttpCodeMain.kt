@@ -1,7 +1,13 @@
 package data.type.classes.type.enum_class.example2
 
-fun main(args: Array<String>) {
+import data.type.classes.type.sealed_class.example2.HttpCodeExtended.*
 
+fun main(args: Array<String>) {
+    println("Here are HTTP codes")
+    println("From Bad request to I'm a teapot")
+    /*for (code in BAD_REQUEST..I_AM_A_TEAPOT) {
+        println("$code")
+    }*/
 }
 
 // #1

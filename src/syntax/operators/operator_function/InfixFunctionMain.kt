@@ -1,6 +1,6 @@
-package data.type.classes.type.enum_class.example2
+package syntax.operators.operator_function
 
-enum class HttpCode(val code: Int)
+enum class HttpCodeInfix(val code: Int)
 /* : Comparable<HttpCode> */ {
     OK(200),
     BAD_REQUEST(400),
@@ -14,5 +14,6 @@ enum class HttpCode(val code: Int)
 
     operator fun rangeTo(other: HttpCode) = HttpCode.values().slice(ordinal..other.ordinal)
 
+    // Infix Function
     infix fun until(other: HttpCode) = HttpCode.values().slice(ordinal..other.ordinal - 1)
 }

@@ -1,4 +1,4 @@
-package data.type.enums.example2
+package data.type.classes.type.enum_class.example2
 
 enum class HttpCode(val code: Int)
 /* : Comparable<HttpCode> */ {

@@ -1,14 +1,14 @@
 package syntax.operators.when_operator
 
-import data.type.enums.example1.SexEnum
-import data.type.enums.example1.SexEnum.Male as M
-import data.type.enums.example1.SexEnum.Female as F
-import data.type.enums.example1.SexEnum.NonBinary as U
+import data.type.classes.type.enum_class.example1.SexEnum
+import data.type.classes.type.enum_class.example1.SexEnum.Male as M
+import data.type.classes.type.enum_class.example1.SexEnum.Female as F
+import data.type.classes.type.enum_class.example1.SexEnum.NonBinary as U
 
-import data.type.enums.example1.MaritalStatusEnum
-import data.type.enums.example1.MaritalStatusEnum.Married
-import data.type.enums.example1.MaritalStatusEnum.NotMarried
-import data.type.enums.example1.MaritalStatusEnum.Unknown
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum.Married
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum.NotMarried
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum.Unknown
 import syntax.method.example1.*
 
 

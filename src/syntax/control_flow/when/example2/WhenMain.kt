@@ -1,14 +1,14 @@
 package syntax.control_flow.`when`.example2
 
-import data.type.enums.example1.MaritalStatusEnum
-import data.type.enums.example1.SexEnum.Male as M
-import data.type.enums.example1.SexEnum.Female as F
-import data.type.enums.example1.SexEnum.NonBinary as NB
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum
+import data.type.classes.type.enum_class.example1.SexEnum.Male as M
+import data.type.classes.type.enum_class.example1.SexEnum.Female as F
+import data.type.classes.type.enum_class.example1.SexEnum.NonBinary as NB
 
-import data.type.enums.example1.MaritalStatusEnum.Married
-import data.type.enums.example1.MaritalStatusEnum.NotMarried
-import data.type.enums.example1.MaritalStatusEnum.Unknown
-import data.type.enums.example1.SexEnum
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum.Married
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum.NotMarried
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum.Unknown
+import data.type.classes.type.enum_class.example1.SexEnum
 
 
 val numArr = arrayOf(1, 2, 3)

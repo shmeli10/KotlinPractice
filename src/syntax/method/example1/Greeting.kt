@@ -1,8 +1,7 @@
 package syntax.method.example1
 
-import data.type.enums.example1.MaritalStatusEnum
-import data.type.enums.example1.SexEnum
-import syntax.method.example1.*
+import data.type.classes.type.enum_class.example1.MaritalStatusEnum
+import data.type.classes.type.enum_class.example1.SexEnum
 import syntax.operators.when_operator.honorify
 
 fun buildGreeting(info: Array<String>):String {

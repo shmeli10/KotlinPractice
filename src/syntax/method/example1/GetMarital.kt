@@ -1,4 +1,4 @@
-package syntax.method
+package syntax.method.example1
 
 import data.type.enums.example1.MaritalStatusEnum
 

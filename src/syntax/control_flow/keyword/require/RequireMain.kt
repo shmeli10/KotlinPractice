@@ -1,7 +1,7 @@
 package syntax.control_flow.keyword.require
 
-import syntax.method.getFirstName
-import syntax.method.getLastName
+import syntax.method.example1.getFirstName
+import syntax.method.example1.getLastName
 
 fun main(args: Array<String>) {
     require(args.size > 0)

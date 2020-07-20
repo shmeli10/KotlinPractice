@@ -1,4 +1,4 @@
-package syntax.method
+package syntax.method.example1
 
 /*
 fun getFirstName(args: Array<String>): String? {

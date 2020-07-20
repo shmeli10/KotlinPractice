@@ -1,6 +1,5 @@
 package syntax.operators.when_operator
 
-import syntax.method.*
 import data.type.enums.example1.SexEnum
 import data.type.enums.example1.SexEnum.Male as M
 import data.type.enums.example1.SexEnum.Female as F
@@ -10,6 +9,7 @@ import data.type.enums.example1.MaritalStatusEnum
 import data.type.enums.example1.MaritalStatusEnum.Married
 import data.type.enums.example1.MaritalStatusEnum.NotMarried
 import data.type.enums.example1.MaritalStatusEnum.Unknown
+import syntax.method.example1.*
 
 
 import java.lang.IllegalArgumentException
@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
     val sex = guessSex(args) ?: U
 
     println("Hello, ${honorify(sex as SexEnum, maritalStatus as MaritalStatusEnum)} " +
-            "${shorten(firstName) } $lastName")
+            "${shorten(firstName)} $lastName")
 }
 
 fun honorify(sex: SexEnum, maritalStatus: MaritalStatusEnum) =

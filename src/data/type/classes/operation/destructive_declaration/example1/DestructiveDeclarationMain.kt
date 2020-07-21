@@ -1,4 +1,4 @@
-package data.type.classes.operation.destructive_declaration
+package data.type.classes.operation.destructive_declaration.example1
 
 import data.type.classes.type.data_class.example3.SignUpMsg
 

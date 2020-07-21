@@ -7,7 +7,6 @@ import interfaces.example2.LoggingExecutable
 class SelectQuery() : SqlQuery(sqlDialect), LoggingExecutable {
     override fun execute(): Int {
         return try {
-
             // #1
             if (conn == null) {
                 throw SqlException("SQL connection failed!)

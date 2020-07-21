@@ -3,7 +3,6 @@ package exceptions.example1;
 public class TryTest {
     public static void main(String[] args) {
         System.out.println("\nResult: " +getResult());
-
     }
 
     private static int getResult() {

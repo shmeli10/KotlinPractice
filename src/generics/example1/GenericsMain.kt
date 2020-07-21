@@ -1,4 +1,4 @@
-package generics
+package generics.example1
 
 fun main(args: Array<String>) {
     println("\nObject#1: ")

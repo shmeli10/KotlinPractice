@@ -1,6 +1,6 @@
 package syntax.control_flow.loop.for_loop.example1
 
-import syntax.method.example1.buildGreeting
+import syntax.functions.type.regular_func.example1.buildGreeting
 
 fun main(args: Array<String>) {
     println(buildGreeting(args))

@@ -9,7 +9,7 @@ import data.type.classes.type.enum_class.example1.MaritalStatusEnum
 import data.type.classes.type.enum_class.example1.MaritalStatusEnum.Married
 import data.type.classes.type.enum_class.example1.MaritalStatusEnum.NotMarried
 import data.type.classes.type.enum_class.example1.MaritalStatusEnum.Unknown
-import syntax.method.example1.*
+import syntax.functions.type.regular_func.example1.*
 
 
 import java.lang.IllegalArgumentException

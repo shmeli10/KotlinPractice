@@ -1,4 +1,4 @@
-package syntax.method.example1
+package syntax.functions.type.regular_func.example1
 
 import data.type.classes.type.enum_class.example1.SexEnum
 

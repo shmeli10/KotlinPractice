@@ -1,4 +1,4 @@
-package syntax.method.example2
+package syntax.functions.type.regular_func.example3
 
 fun main(args: Array<String>) {
     val a: A = B()

@@ -1,4 +1,4 @@
-package syntax.method.example1
+package syntax.functions.type.regular_func.example1
 
 // static functions
 fun showFirstCharacter(input:String):Char {

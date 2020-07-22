@@ -1,5 +1,7 @@
 package data.type.functional_type
 
+import syntax.functions.type.extension_function.buildTestUser
+
 fun <T, R> with(receiver: T, block: T.() -> R): R =
         receiver.block()
 
@@ -41,8 +43,3 @@ fun buildTestUserOld(userBuilder: UserBuilder): User {
 // (T) -> R
 fun buildTestUser(): User =
         with(UserBuilder(), ::buildTestUserOld)
-
-// #4
-// Extension function with receiver
-fun UserBuilder.buildTestUser(): User =
-        with(this, ::buildTestUserOld)

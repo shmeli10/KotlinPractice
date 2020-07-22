@@ -1,4 +1,4 @@
-package syntax.functions.type.inline_func
+package syntax.functions.type.inline_func.example1
 
 fun main(args: Array<String>) {
     val myLambda: (String) -> Unit = {s: String -> print(s)}

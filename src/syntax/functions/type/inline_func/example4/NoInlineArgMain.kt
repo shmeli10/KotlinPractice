@@ -1,4 +1,4 @@
-package syntax.functions.type.inline_func
+package syntax.functions.type.inline_func.example4
 
 class FunctionStorage(val functionResults: MutableMap<() -> Any, Any>)
 

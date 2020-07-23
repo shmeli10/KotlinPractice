@@ -27,7 +27,7 @@ class ErrorProcessor {
         // #1
         return stringifyList(errorList,
             // #1
-            // fun(e: Error): String{
+            // fun(e: Error): String {
             //    return e.toString()
             // }
 

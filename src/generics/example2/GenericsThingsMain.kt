@@ -19,3 +19,44 @@ inline fun <E> List<E>.inject(other: List<E>): List<E> {
     return res
 }
 */
+
+/*fun kaboom() {
+    val ints: Array<Int> = arrayOf(1, 2, 3)
+    val anys: Array<Any> = arrayOf("", "", "")
+    copy(ints, anys) 	// Does not work
+}
+
+fun copy(from: Array<Any>, to: Array<Any>) {
+    assert(from.size == to.size)
+    for (i in from.indices)
+        to[i] = from[i]
+}*/
+
+/*
+fun copy(from: Array<out Any>, to: Array<Any>) {
+    assert(from.size == to.size)
+    for (i in from.indices)
+        to[i] = from[i]
+}
+*/
+
+/*
+// #1
+fun <From, To> copy(from: Array<out From>, to: Array<To>) { ... }
+
+// #2
+fun <From: To, To> copy(from: Array<out From>, to: Array<To>) {
+    assert(from.size == to.size)
+    for (i in from.indices)
+        to[i] = from[i]
+}
+*/
+
+
+fun <From, To> copyNonNulls(from: Array<out From>, to: Array<To>)
+        where From: To,		/* From <: To */
+              To: Any	{
+    assert(from.size == to.size)
+    for (i in from.indices)
+        to[i] = from[i]
+}

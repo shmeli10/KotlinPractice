@@ -13,5 +13,5 @@ class BaseImpl(val x: Int) : Base {
     override fun printMe() = println("\nThe value is: $x")    // implementation of the method
 }
 
-class Derived(baseImplArg: Base) : Base by baseImplArg  // delegating the public method on the object baseImplArg
+class Derived(baseImplArg: Base): Base by baseImplArg  // delegating the public method on the object baseImplArg
 

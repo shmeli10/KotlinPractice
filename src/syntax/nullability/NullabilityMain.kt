@@ -11,5 +11,5 @@ fun main() {
 }
 
 fun shorten(name: String?): String =
-        if (true == name?.isNotEmpty()) name!!.get(0) + "."
+        if (true == name?.isNotEmpty()) name[0] + "."
         else ""

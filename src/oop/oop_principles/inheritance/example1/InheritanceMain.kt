@@ -1,4 +1,4 @@
-package data.type.classes.principle.inheritance.example1
+package oop.oop_principles.inheritance.example1
 
 fun main(args: Array<String>) {
     var  male = Male()

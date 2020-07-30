@@ -1,4 +1,4 @@
-package syntax.visibility_control
+package syntax.visibility_control.example1
 
 // private
 private class privateExample {

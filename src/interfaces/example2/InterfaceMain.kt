@@ -41,19 +41,3 @@ interface LoggingExecutable: Executable, Loggable {
         log.info("After executing: $this")
     }
 }
-
-/*
-class SqlTests {
-    @Test
-    fun run() {
-        assertEquals(42, runner.run(
-            object : LoggingExecutable {
-                override fun execute(): Int {
-                    log.info("Look, ma!")
-                    return 42
-                }
-            }
-        ))
-    }
-}
-*/

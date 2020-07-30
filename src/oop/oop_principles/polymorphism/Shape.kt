@@ -1,28 +1,28 @@
 package oop.oop_principles.polymorphism
 
 abstract class Shape protected constructor() {
-    var locationX: Int
-        get() = this.locationX
+    var locationX: Int = 0
+        get() = field
         set(value: Int) {
-            this.locationX = value
+            field = value
         }
 
-    var locationY: Int
-        get() = this.locationY
+    var locationY: Int = 0
+        get() = field
         set(value: Int) {
-            this.locationY = value
+            field = value
         }
 
-    var width: Double
-        get() = this.width
+    var width: Double = 0.0
+        get() = field
         set(value: Double) {
-            this.width = value
+            field = value
         }
 
-    var height: Double
-        get() = this.height
+    var height: Double = 0.0
+        get() = field
         set(value: Double) {
-            this.height = value
+            field = value
         }
 
     abstract fun isHit(x: Int, y: Int): Boolean

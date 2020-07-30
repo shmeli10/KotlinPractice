@@ -24,8 +24,8 @@ class ChequePayment : Payment {
         this.bankId = bankId
     }
 
-    var name: String
-        get() = this.name
-    var bankId: String
-        get() = this.bankId
+    var name: String = ""
+        get() = field
+    var bankId: String = ""
+        get() = field
 }

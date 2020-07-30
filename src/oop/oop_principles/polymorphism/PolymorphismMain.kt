@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
 
     val shapes = listOf<Shape>(e1, e2, r1)
     val selected:Shape? = shapes.firstOrNull {shape -> shape.isHit(50,52)}
+    // val selected:Shape? = shapes.firstOrNull {shape -> shape.isHit(150,152)}
 
     if(selected == null){
         println("There is no shape at point(50,52)")

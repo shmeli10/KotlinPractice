@@ -1,4 +1,4 @@
-package syntax.properties
+package syntax.properties.example1
 
 import data.type.classes.type.enum_class.example1.SexEnum
 

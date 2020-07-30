@@ -17,6 +17,8 @@ fun main(args: Array<String>) {
 class Alien {
     var skills: String = "null"
 
+    fun addMySkills(a: Alien): String = "Skills from \"addMySkills()\" inside the \"Alien\" class."
+
     fun printMySkills() {
         print(skills)
     }

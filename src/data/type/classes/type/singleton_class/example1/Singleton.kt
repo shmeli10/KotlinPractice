@@ -4,7 +4,7 @@ package data.type.classes.type.singleton_class.example1
 object Singleton {
     private var count = 0
 
-    fun doSomething():Unit {
+    fun doSomething(): Unit {
         println("Calling doSomething (${++count} call/-s in total)")
     }
 }

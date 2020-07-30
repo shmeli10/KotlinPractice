@@ -1,4 +1,4 @@
-package data.type.classes.operation.extension.example1
+package data.type.classes.type.companion_object.example1
 
 fun main(args: Array<String>) {
     println("Heyyy!!! "+ A.show())

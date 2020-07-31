@@ -1,6 +1,5 @@
 package data.type.classes.type.sealed_class.example1
 
-import data.type.classes.type.enum_class.example2.HttpCode
 import data.type.classes.type.sealed_class.example2.HttpCodeExtended
 
 fun main(args: Array<String>) {

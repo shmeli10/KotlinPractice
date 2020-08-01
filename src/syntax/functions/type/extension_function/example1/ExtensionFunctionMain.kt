@@ -1,4 +1,4 @@
-package syntax.functions.type.extension_function
+package syntax.functions.type.extension_function.example1
 
 import data.type.functional_type.User
 import data.type.functional_type.UserBuilder

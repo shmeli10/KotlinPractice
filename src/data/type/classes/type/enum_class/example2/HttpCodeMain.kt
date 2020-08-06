@@ -1,6 +1,6 @@
 package data.type.classes.type.enum_class.example2
 
-import data.type.classes.type.sealed_class.example2.HttpCodeExtended.*
+import syntax.functions.type.infix_func.example2.HttpCode
 
 fun main(args: Array<String>) {
     println("Here are HTTP codes")

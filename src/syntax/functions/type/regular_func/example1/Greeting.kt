@@ -2,7 +2,7 @@ package syntax.functions.type.regular_func.example1
 
 import data.type.classes.type.enum_class.example1.MaritalStatusEnum
 import data.type.classes.type.enum_class.example1.SexEnum
-import syntax.operators.when_operator.honorify
+import syntax.operators.type.when_operator.honorify
 
 fun buildGreeting(info: Array<String>):String {
     val firstName = getFirstName(info) ?: "John"

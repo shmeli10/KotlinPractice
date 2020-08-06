@@ -1,6 +1,6 @@
 package data.type.functional_type
 
-import syntax.functions.type.extension_function.example1.buildTestUser
+import syntax.functions.type.extension_func.example1.buildTestUser
 
 fun <T, R> with(receiver: T, block: T.() -> R): R =
         receiver.block()

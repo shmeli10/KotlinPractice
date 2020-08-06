@@ -1,4 +1,4 @@
-package syntax.functions.type.operator_func
+package syntax.functions.type.operator_func.example1
 
 enum class HttpCode(val code: Int)
 /* : Comparable<HttpCode> */ {

@@ -1,4 +1,4 @@
-package syntax.operators.operation.overloading.example2
+package syntax.functions.type.operator_func.example3
 
 fun main(args: Array<String>) {
     val ints = arrayOf(1,2,3,4)

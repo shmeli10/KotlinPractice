@@ -1,4 +1,4 @@
-package syntax.functions.type.inline_func.example2
+package syntax.functions.type.extension_func.example5
 
 import data.type.functional_type.User
 import data.type.functional_type.UserBuilder

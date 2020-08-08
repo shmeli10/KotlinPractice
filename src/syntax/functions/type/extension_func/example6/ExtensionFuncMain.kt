@@ -1,6 +1,4 @@
-package syntax.functions.type.inline_func.example3
-
-import data.type.functional_type.User
+package syntax.functions.type.extension_func.example6
 
 fun main() {
 

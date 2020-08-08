@@ -1,6 +1,4 @@
-package syntax.functions.type.inline_func.example5
-
-import java.util.concurrent.Callable
+package syntax.functions.type.inline_func.example3
 
 fun main(args: Array<String>) {
     println("\nResult: ${getResult()}")

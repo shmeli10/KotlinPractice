@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     myFunc(value, myLambda)     // passing lambda as a parameter of another function
 }
 
-fun myFunc(str: String, action: (String) -> Unit) {     //passing lambda
+fun myFunc(str: String, action: (String) -> Unit) {     // passing lambda
     print("\nHeyyy!!!")
     action(str)         // call to lambda function
 }

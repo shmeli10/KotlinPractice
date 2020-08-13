@@ -1,5 +1,6 @@
 package syntax.functions.type.inline_func.scope_func.apply.example2
 
+
 fun main() {
     // #1
     val peterRegular = Person()
